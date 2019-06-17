@@ -4,6 +4,9 @@
 
 
 
+
+
+
 /* body {
 background-image: url(https://wi-images.condecdn.net/image/B1NZW376pxM/crop/1620/f/space_11.jpg); background-size: 100%;
 
@@ -112,6 +115,10 @@ top: 1000px;
 
 /* ----------------------------------- P L A N E T S -------------------------------------- */
 
+#planets{
+  cursor:pointer; 
+}
+
 
 .planet {
   position: absolute;
@@ -123,6 +130,7 @@ top: 1000px;
 }
 
 #sun {
+  cursor:pointer;
   --size: 100px;
   --push: 0px;
   background: linear-gradient(45deg, goldenrod, yellow);

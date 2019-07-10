@@ -265,3 +265,22 @@ div.container{
 
 /* ----------------------------------------modals------------------------------------------------ */
 
+
+@media screen and (max-width: 550px) {
+  html {
+    background: url("../images/space2.jpg");
+    width: 1000px;
+  }
+
+  h2 {
+    font-size: 55px;
+  }
+
+  .planet {
+    margin-left: 250px;
+  }
+
+  #pause {
+    display: none;
+  }
+}

@@ -52,6 +52,12 @@ h1 {
   font-size: 100px;
 }
 
+#title-text {
+  font-family: 'Teko', sans-serif;
+  font-size: 100px;
+  color: white;
+}
+
 #pause {
 color: white;
 position: sticky;
@@ -91,21 +97,21 @@ font-weight: bold;
 }
 
 #Mercury {
-  --size: 8px;
+  --size: 9px;
   --push: 80px;
   background-image: linear-gradient(yellow, red);
   animation: orbit 15s infinite linear;
 }
 
 #Venus {
-  --size: 11px;
+  --size: 12px;
   --push: 120px;
   background-image: linear-gradient(orange, yellow);
   animation: orbit 20s infinite linear;
 }
 
 #Earth {
-  --size: 20px;
+  --size: 22px;
   --push: 160px;
   background-image: linear-gradient(blue, green);
   animation: orbit 24s infinite linear;
@@ -148,7 +154,7 @@ font-weight: bold;
 }
 
 #Pluto {
-  --size: 5px;
+  --size: 7px;
   --push: 470px;
   background-image: radial-gradient(turquoise,grey);
   animation: orbit 87s infinite linear;
@@ -273,8 +279,22 @@ div.container{
   }
 
   .planet {
-    margin-left: 350px;
+    margin-left: 130px;
     margin-top: 130px;
+  }
+
+  #Pluto {
+    --size: 10px;
+    animation: orbit 100s infinite linear;
+  }
+
+  #title-text {
+    margin-top: 120px;
+    font-size: 150px;
+  }
+
+  #front-page {
+    font-size: 20px;
   }
 }
 
@@ -287,5 +307,22 @@ div.container{
 
   #pause {
     display: none;
+  }
+
+  #title-text {
+    margin-top: 200px;
+  }
+
+  .planet {
+    margin-left: 210px;
+    margin-top: 160px;
+  }
+
+}
+
+@media screen and (max-width: 426px) {
+  .planet {
+    margin-left: 310px;
+    margin-top: 160px;
   }
 }

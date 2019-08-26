@@ -3,11 +3,7 @@
 }
 
 html { 
-  background: url(https://wi-images.condecdn.net/image/B1NZW376pxM/crop/1620/f/space_11.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(https://wi-images.condecdn.net/image/B1NZW376pxM/crop/1620/f/space_11.jpg);
 }
 
 .planetHeader {
@@ -264,13 +260,19 @@ div.container{
 }
 
 /* ----------------------------------------modals------------------------------------------------ */
+@media screen and (max-width: 850px) {
+  #pause {
+    display: none;
+  }
 
-
-@media screen and (max-width: 550px) {
   html {
     background: url("../images/space2.jpg");
     width: 1000px;
   }
+}
+
+
+@media screen and (max-width: 550px) {
 
   h2 {
     font-size: 55px;

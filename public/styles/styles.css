@@ -2,8 +2,8 @@
   line-height: 2.5;
 }
 
-html { 
-  background: url(https://wi-images.condecdn.net/image/B1NZW376pxM/crop/1620/f/space_11.jpg);
+body { 
+  background-image: url(https://wi-images.condecdn.net/image/B1NZW376pxM/crop/1620/f/space_11.jpg);
 }
 
 .planetHeader {
@@ -265,8 +265,8 @@ div.container{
     display: none;
   }
 
-  html {
-    background: url("../images/space2.jpg");
+  body {
+    background-image: url("../images/space2.jpg");
     background-repeat: repeat;
     width: 1000px;
   }

@@ -267,6 +267,7 @@ div.container{
 
   html {
     background: url("../images/space2.jpg");
+    background-repeat: repeat;
     width: 1000px;
   }
 }

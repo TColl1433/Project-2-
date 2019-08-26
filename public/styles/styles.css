@@ -271,6 +271,11 @@ div.container{
     width: 1000px;
     height: 1000px;
   }
+
+  .planet {
+    margin-left: 350px;
+    margin-top: 350px;
+  }
 }
 
 
@@ -278,10 +283,6 @@ div.container{
 
   h2 {
     font-size: 55px;
-  }
-
-  .planet {
-    margin-left: 250px;
   }
 
   #pause {

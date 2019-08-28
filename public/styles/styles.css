@@ -276,9 +276,6 @@ div.container{
     background-repeat: repeat;
     width: 1000px;
     height: 1000px;
-    -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
-    zoom: 0.85; /* Other non-webkit browsers */
-    zoom: 85%; /* Webkit browsers */
   }
 
   .planet {

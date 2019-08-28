@@ -12,7 +12,26 @@ Tracy Collins
 
 We've created a website to help you plan your trip to another planet. Using CSS, we have a representation of the solar system with working planets. When you click on a planet, you get a picture and detailed information about it. Including how many moons and it's gravity. A user would fill out the form, and then can look at all the trips that have ever been planned. 
 
+  Home Page:
+  
+  ![Galactic Voyager](/public/images/SSHome.jpg)
+
+  Planets Display:
+  
   ![Galactic Voyager](/public/images/galacticVoyager.png)
+  
+  Planet Info:
+  
+  ![Galactic Voyager](/public/images/SSPlanets.jpg)
+
+  Trips Form:
+  
+  ![Galactic Voyager](/public/images/SSForm.jpg)
+  
+  Previous Trips:
+  
+  ![Galactic Voyager](/public/images/SSTrips.jpg)
+
 
 We are using the Solar System OpenData API for all planetary information.
 
